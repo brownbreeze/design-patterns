@@ -12,10 +12,13 @@ public class App {
     }
 
     public static void main(String[] args) {
+        // 2
         WeatherData wd = new WeatherData();
         CurrentConditionsDisplay cd = new CurrentConditionsDisplay(wd);
         wd.setMeasurements(80, 65, 30.4f);
         wd.setMeasurements(82, 70, 30.2f);
         wd.setMeasurements(78, 90, 29.2f);
+
+        // 3
     }
 }
